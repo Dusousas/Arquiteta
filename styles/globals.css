@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Barlow", serif;
+
+}
+
+.vertical-text {
+  writing-mode: vertical-rl; /* Alinha o texto verticalmente da direita para a esquerda */
+  transform: rotate(180deg); /* Gira para alinhar normalmente de cima para baixo */
+  font-size: 1.5rem; /* Ajuste do tamanho da fonte */
+  margin-right: 6px; /* Espaçamento entre o texto e a imagem */
+}
+
+.maxW {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 2%;
+}
+
+.AboutBG{
+  background-image: url('../public/AboutBG.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* SLIDERS */
+.slider1{
+  background-image: url('/slider/1.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 80vh;
+}
+
+.slider2{
+  background-image: url('/slider/2.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 80vh;
+}
+
+.slider3{
+  background-image: url('/slider/3.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 80vh;
+}
+
+
+
