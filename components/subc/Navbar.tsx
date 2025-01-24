@@ -22,11 +22,11 @@ export default function Navbar() {
             {/* DESKTOP */}
             <nav className='hidden lg:block'>
                 <ul className='flex gap-8 text-BlueP uppercase font-Josefin font-light text-lg'>
-                    <Link href="/"><li className='cursor-pointer'>Home</li></Link>
-                    <Link href="/Portfolio"><li className='cursor-pointer'>Sobre Nós</li></Link>
-                    <Link href="/Sobre"><li className='cursor-pointer'>Serviços</li></Link>
-                    <Link href="/Sobre"><li className='cursor-pointer'>Projetos</li></Link>
-                    <Link href="/Sobre"><li className='cursor-pointer'>Contato</li></Link>
+                    <Link href="#"><li className='cursor-pointer'>Home</li></Link>
+                    <Link href=""><li className='cursor-pointer'>Sobre Nós</li></Link>
+                    <Link href=""><li className='cursor-pointer'>Serviços</li></Link>
+                    <Link href=""><li className='cursor-pointer'>Projetos</li></Link>
+                    <Link href=""><li className='cursor-pointer'>Contato</li></Link>
                 </ul>
             </nav>
 
