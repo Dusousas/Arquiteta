@@ -13,8 +13,8 @@ export default function Projects() {
 
                         <div className='w-1/2 flex flex-col gap-6 items-end'>
                             <div className='relative'>
-                                <img className='w-[450px] h-[560px] object-cover' src="/slider/1.jpg" alt="" />
-                                <h1 className='absolute top-[150px] left-[-140px] uppercase font-Oswald text-lg'>Sala moderna_________________</h1>
+                                <img className='w-[450px] h-[560px]  object-cover' src="/slider/1.jpg" alt="" />
+                                <h1 className='hidden top-[150px] left-[-140px] uppercase font-Oswald text-lg lg:absolute'>Sala moderna_________________</h1>
                             </div>
 
                             <img className='w-[450px] h-[355px] object-cover' src="/slider/1.jpg" alt="" />
