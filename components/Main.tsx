@@ -13,18 +13,22 @@ export default function Main() {
   // Referência para o Swiper
   const swiperRef = useRef<any>(null);
 
-  // Funções para navegação
-  const handlePrev = () => {
-    if (swiperRef.current) {
-      swiperRef.current.swiper.slidePrev(); // Navegar para o slide anterior
-    }
-  };
+// Funções de navegação modificadas
+const handlePrev = (e: React.MouseEvent<HTMLDivElement>) => {
+  // Previne a seleção de texto ao clicar
+  e.preventDefault();
+  if (swiperRef.current) {
+    swiperRef.current.swiper.slidePrev();
+  }
+};
 
-  const handleNext = () => {
-    if (swiperRef.current) {
-      swiperRef.current.swiper.slideNext(); // Navegar para o próximo slide
-    }
-  };
+const handleNext = (e: React.MouseEvent<HTMLDivElement>) => {
+  // Previne a seleção de texto ao clicar
+  e.preventDefault();
+  if (swiperRef.current) {
+    swiperRef.current.swiper.slideNext();
+  }
+};
 
   return (
     <section className="">
@@ -51,14 +55,16 @@ export default function Main() {
         {/* Setas de navegação conectadas ao Swiper */}
         <article className="flex items-center justify-end gap-2 relative bottom-[100px] z-10 maxW">
           <div
-            className="custom-prev border rounded-full hover:bg-white hover:border-none cursor-pointer"
-            onClick={handlePrev} // Ao clicar, navega para o slide anterior
+            className="custom-prev border rounded-full hover:bg-white hover:border-none cursor-pointer select-none"
+            onClick={handlePrev}
+            onMouseDown={(e: React.MouseEvent<HTMLDivElement>) => e.preventDefault()}
           >
             <MdOutlineKeyboardArrowLeft className="text-4xl text-white hover:text-black" />
           </div>
           <div
-            className="custom-next border rounded-full hover:bg-white hover:border-none cursor-pointer"
-            onClick={handleNext} // Ao clicar, navega para o próximo slide
+            className="custom-next border rounded-full hover:bg-white hover:border-none cursor-pointer select-none"
+            onClick={handleNext}
+            onMouseDown={(e: React.MouseEvent<HTMLDivElement>) => e.preventDefault()}
           >
             <MdOutlineKeyboardArrowRight className="text-4xl text-white hover:text-black" />
           </div>
