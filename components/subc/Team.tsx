@@ -11,7 +11,7 @@ export default function Team() {
                     {/* PROFISSSIONAL 1 */}
                     <div className=''>
                         <div className='flex border-BlueP border-l'>
-                            <h1 className='vertical-text '>Lívia Urbano</h1>
+                            <h1 className='vertical-text '>Nome 1</h1>
                             <img className='w-[350px]' src="team1.jpg" alt="" />
                         </div>
                         <div className='py-2 flex justify-center gap-2'>
@@ -23,7 +23,7 @@ export default function Team() {
                     {/* PROFISSSIONAL 2 */}
                     <div className=''>
                         <div className='flex border-BlueP border-l'>
-                            <h1 className='vertical-text'>Lívia Urbano</h1>
+                            <h1 className='vertical-text'>Nome 2</h1>
                             <img className='w-[350px]' src="team1.jpg" alt="" />
                         </div>
                         <div className='py-2 flex justify-center gap-2'>

@@ -11,7 +11,7 @@ export default function Footer() {
                     </article>
 
                     <article className='border-x border-gray-200 h-[10px] w-full flex items-center justify-center py-6 lg:w-1/3'>
-                        <p className='px-6 text-[12px] uppercase tracking-widest'>Lívia Urbano Arquiteta - Todos os direitos reservados</p>
+                        <p className='px-6 text-[12px] uppercase tracking-widest'>Sua logo - Todos os direitos reservados</p>
                     </article>
 
                     <article className='border-r border-gray-200 h-[10px] w-full justify-center py-6 lg:w-1/3'>

@@ -37,7 +37,7 @@ export default function About() {
                     </article>
 
                     <article className='w-full font-Oswald lg:w-1/2'>
-                        <h1 className='uppercase text-3xl font-normal font-Oswald tracking-wider'>Sobre <span className='text-BlueP font-Oswald tracking-wider'>Livia Urbano</span></h1>
+                        <h1 className='uppercase text-3xl font-normal font-Oswald tracking-wider'>Sobre <span className='text-BlueP font-Oswald tracking-wider'>Seu nome</span></h1>
                         <span className='uppercase text-3xl text-BlueP font-normal font-Oswald tracking-wider'>Arquiteta</span>
                         <p className='my-2 text-[15px]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga quasi numquam nam repellendus! Dignissimos corporis quisquam exercitationem aperiam cumque modi delectus ea provident ducimus. Omnis earum molestias quia debitis necessitatibus.</p>
                         <p className='text-[15px]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga quasi numquam nam repellendus! Dignissimos corporis quisquam exercitationem aperiam cumque modi delectus ea provident ducimus. Omnis earum molestias quia debitis necessitatibus.</p>

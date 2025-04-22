@@ -15,10 +15,10 @@ export default function Contatos() {
                     </article>
 
                     <article className='border-x border-gray-200 w-full text-center py-20 h-[200px] flex flex-col justify-center lg:w-1/3 lg:text-left'>
-                        <h1 className='px-2 uppercase font-Oswald text-[24px] mb-3'>Escritório Brotas</h1>
-                        <h2 className='px-2 uppercase text-[15px]'>Avenida Rui Barbosa, 1010</h2>
-                        <h2 className='px-2 uppercase text-[15px] mb-3'>Brotas - São Paulo</h2>
-                        <h3 className='px-2 uppercase text-[20px] font-Oswald'>(14) 3656-1234</h3>
+                        <h1 className='px-2 uppercase font-Oswald text-[24px] mb-3'>Escritório São Paulo</h1>
+                        <h2 className='px-2 uppercase text-[15px]'>Avenida Rui Barbosa, 999</h2>
+                        <h2 className='px-2 uppercase text-[15px] mb-3'>São Paulo - São Paulo</h2>
+                        <h3 className='px-2 uppercase text-[20px] font-Oswald'>(14) 12345-1234</h3>
                     </article>
 
                     <article className='border-r border-gray-200 w-full text-center py-20 h-[200px] justify-center lg:w-1/3 lg:text-left'>
